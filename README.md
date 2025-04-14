@@ -65,9 +65,9 @@ pip install imitation[test]
   # Then run the dagger_train.py file. 
   python dagger_train.py
 
-  # The policies are saved in the "models\bc" folder, for example: 
-  models\bc\bc-continuous-traj_20.zip
-  models\bc\bc-discrete-traj_20.zip
+  # The policies are saved in the "models\dagger" folder, for example: 
+  models\dagger\dagger-continuous-totalsteps_10000.zip
+  models\dagger\dagger-discrete-totalsteps_10000.zip
 ```
 
 4. Load a trained policy and run the environment. 
