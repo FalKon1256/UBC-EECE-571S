@@ -13,7 +13,7 @@ This is the repo for the final project of the course EECE 571S. This project aim
 All best models surpass `85%` of the baseline performance, while only having the time cost lower than `10%` of the baseline. The best policy with the highest performance is trained through DAgger in discrete action space, reaching `94.7%` of the PPO policy performance. We found how efficient the BC and DAgger algorithm can be, compared to the time cost of the PPO algorithm. The BC policies in continuous and discrete settings can have less than `1%` of the baseline time cost, while both still preserving over `85%` of the PPO policy performance. 
 
 ## Result and Demo
-![pixel-style](https://raw.githubusercontent.com/FalKon1256/UBC-EECE-571S/main/imgs/results.png)
+![pixel-style](imgs/result.png)
 
 This figure shows the final performance, improvement, and trade-off comparison of our training. The final report and results are shown in the [final project report](https://github.com/FalKon1256/UBC-EECE-571S/blob/main/report/EECE_571S-final-project-report-kevinchu.pdf). You may find the demos from [this link](https://www.youtube.com/playlist?list=PLr1LfzWLnxUCpO9GbtjgPFEKumtLGQ36u). 
 
